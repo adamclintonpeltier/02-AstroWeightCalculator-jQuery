@@ -1,0 +1,45 @@
+/*controls background image.*/
+body {
+    background: url("http://www.wallpaperhi.com/thumbnails/detail/20120204/solar%20system%20planets%20little%201280x800%20wallpaper_www.wallpaperhi.com_61.jpg");
+    margin-top: 300px;
+    margin-bottom: 300px;
+    margin-left: 90px;
+    background-position: -20px -100px;
+}
+/*controls font for weight entry field.*/
+.weight-font{
+	font-family:"futura";
+	font-size: 35px;
+	padding: 15px;
+	color: #ffff66;
+}
+/*controls font for drop down box.*/
+.world-font{
+	font-family:"futura";
+	font-size: 35px;
+	padding: 15px;
+	color: #ffff99;
+}
+/*controls the button's appearance.*/
+.button {
+    font-family: "futura";
+    background-color: #ffff99;
+    font-size: 20px;
+    transition-duration: .5s;
+    border-radius: 5px 60px 5px;
+    padding: 20px;
+
+}
+/*Changes button color when mouse hovers over it. */
+.button:hover {
+    background-color: #ff9933;
+}
+
+#answer{
+	padding: 10px;
+	text-align: center;
+	margin-right: 120px;
+	margin-left: 75px;
+	font-family: "futura";
+	font-size: 30px;
+}
